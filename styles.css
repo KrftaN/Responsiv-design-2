@@ -1,0 +1,21 @@
+body {
+	margin: 0px;
+	height: 100%;
+	width: 100%;
+}
+
+.wrapper {
+	display: grid;
+	height: 90vh;
+	width: 120vh;
+	background-color: teal;
+}
+
+section:nth-child(2) {
+	background: yellow;
+	border-radius: 50%;
+	width: 90vh;
+	height: 90vh;
+	display: flex;
+	justify-self: center;
+}
